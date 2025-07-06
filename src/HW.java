@@ -1,3 +1,5 @@
+import second.SomeFromSecond;
+
 public class HW {
     public static void main(String[] args) {
         System.out.println("Hello world");
@@ -9,6 +11,7 @@ public class HW {
 
 
     public void doFromSecond() {
-        System.out.println("Second");
+        SomeFromSecond someFromSecond = new SomeFromSecond();
+        someFromSecond.sayHello();
     }
 }
