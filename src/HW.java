@@ -1,4 +1,5 @@
 import second.SomeFromSecond;
+import first.SomeFromFirst;
 
 public class HW {
     public static void main(String[] args) {
@@ -6,7 +7,8 @@ public class HW {
     }
 
     public void doFromFirst() {
-        System.out.println("First");
+        SomeFromFirst someFromFirst = new SomeFromFirst();
+        someFromFirst.sayHello();
     }
 
 
