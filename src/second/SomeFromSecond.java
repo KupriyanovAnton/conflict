@@ -3,10 +3,10 @@ package second;
 public class SomeFromSecond {
 
     public void sayHello() {
-        extracted();
+        extractedFromMaster();
     }
 
-    private void extracted() {
+    private void extractedFromMaster() {
         System.out.println("Hello Vietnam");
     }
 
